@@ -87,3 +87,24 @@ p{
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     margin-left: 2px;
 }
+
+#contact-details ul {
+    list-style-type: none;
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+
+#contact-details ul li{
+    margin-bottom: 3px;
+    color: #444;
+}
+
+#contact-details ul li a{
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-in;
+}
+
+#contact-details ul li a:hover{
+    color: #006BA6;
+}
