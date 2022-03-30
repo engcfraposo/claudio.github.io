@@ -57,3 +57,33 @@ p{
     display:flex;
     justify-content: space-between;
 }
+
+#avatar {
+    width: 12.5%;
+}
+
+#avatar img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+
+#name-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#name-title h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    margin-bottom: -6px;
+}
+
+#name-title h2 {
+    font-size: 1.0em;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    margin-left: 2px;
+}
